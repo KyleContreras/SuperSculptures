@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Super Sculptures!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../css/home.css">
+</head>
+<body>
+<div class="container">
+    <div class="text-center">
+        <h1>Welcome to Super Sculptures!</h1>
+        <br>
+        <p>"Buy and sell sculptures of your favorite comic book characters"</p>
+        <div class="input-container">
+            <form id="searchForm" action="/search" method="GET">
+                <input type="text" placeholder="Find a sculpture" id="searchInput" name="q" class="form-control"/>
+                <button type="submit" class="btn btn-primary mt-3">Search</button>
+            </form>
+            <button type="button" class="btn btn-primary mt-3" onclick="">Sell</button>
+            <button type="button" class="btn btn-primary mt-3" onclick="">Create Profile</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

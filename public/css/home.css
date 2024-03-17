@@ -1,0 +1,33 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.input-container {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.form-control {
+    width: 800px;
+    border-width: 1px;
+    border-color: #496e53;
+}
+
+.input-container .form-control:focus {
+    box-shadow: 0 0 0 0.10rem #496e53 !important;
+    background: #cedad1;
+}
+
+.btn.btn-primary {
+    background-color: #496e53;
+    border-color: #cedad1;
+}
