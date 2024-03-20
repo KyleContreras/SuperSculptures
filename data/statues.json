@@ -1,15 +1,14 @@
 [
-    { "id": 1, "name": "Batman", "cost": 50, "image": "batman.jpg" },
-    { "id": 2, "name": "Black Widow", "cost": 40, "image": "blackwidow.jpg" },
-    { "id": 3, "name": "Doctor Strange", "cost": 60, "image": "doctorstrange.jpg" },
-    { "id": 4, "name": "Doctor Doom", "cost": 55, "image": "doctordoom.jpg" },
-    { "id": 5, "name": "Human Torch", "cost": 35, "image": "humantorch.jpg" },
-    { "id": 6, "name": "Iron Man", "cost": 65, "image": "ironman.jpg" },
-    { "id": 7, "name": "Magneto", "cost": 70, "image": "magneto.jpg" },
-    { "id": 8, "name": "Superman", "cost": 75, "image": "superman.jpg" },
-    { "id": 9, "name": "Thanos", "cost": 80, "image": "thanos.jpg" },
-    { "id": 10, "name": "The Flash", "cost": 45, "image": "theflash.jpg" },
-    { "id": 11, "name": "The Hulk", "cost": 65, "image": "thehulk.jpg" },
-    { "id": 12, "name": "Thor", "cost": 55, "image": "thor.jpg" }
+    { "name": "Batman", "cost": 50, "image": "batman.jpg" },
+    { "name": "Black Widow", "cost": 40, "image": "blackwidow.jpg" },
+    { "name": "Doctor Strange", "cost": 60, "image": "doctorstrange.jpg" },
+    { "name": "Doctor Doom", "cost": 55, "image": "doctordoom.jpg" },
+    { "name": "Human Torch", "cost": 35, "image": "humantorch.jpg" },
+    { "name": "Iron Man", "cost": 65, "image": "ironman.jpg" },
+    { "name": "Magneto", "cost": 70, "image": "magneto.jpg" },
+    { "name": "Superman", "cost": 75, "image": "superman.jpg" },
+    { "name": "Thanos", "cost": 80, "image": "thanos.jpg" },
+    { "name": "The Flash", "cost": 45, "image": "theflash.jpg" },
+    { "name": "The Hulk", "cost": 65, "image": "thehulk.jpg" },
+    { "name": "Thor", "cost": 55, "image": "thor.jpg" }
 ]
-

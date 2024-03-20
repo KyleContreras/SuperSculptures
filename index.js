@@ -1,10 +1,23 @@
 const express = require('express');
 const app = express();
 const port = 3000;
-const statues = require('./data/statues.json');
+const client = require('./db');
+
+async function connectToDatabase() {
+    try {
+        await client.connect();
+        console.log('Connected to sculptures database');
+    } catch (error) {
+        console.error('Error connecting to the database:', error);
+        process.exit(1);
+    }
+}
+connectToDatabase();
+
 
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
+
 
 app.get('/', (req, res) => {
     res.render('home');
